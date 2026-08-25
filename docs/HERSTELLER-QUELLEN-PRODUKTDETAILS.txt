@@ -1,0 +1,22 @@
+HERSTELLERQUELLEN FÜR PRODUKTDETAILS
+
+MITSUBISHI ELECTRIC
+- Basic Wandgeräte MSZ-HR:
+  https://www.mitsubishi-les.com/de-de/basic-wandgeraete-msz-hr-39500.html
+- Aktueller Cool&Clever Fachhändler-Flyer 2026/27:
+  https://www.mitsubishi-les.com/de-de/dam-upload/aktionsflyer-cool-clever-fuer-fachhaendler.pdf
+Hinweis: Mitsubishi hat aktuelle Baureihenrevisionen VFK2/VF2. Die Shopmodellnamen bleiben die vom Händler geplanten MSZ-HR25VF / HR35VF Sets. Vor Liveverkauf sollte die konkrete Revision des Lagerartikels geprüft werden.
+
+DAIKIN
+- Sensira FTXF-F Produktseite:
+  https://www.daikin.de/de_de/produkte/product.html/FTXF-F.html
+- Offizielles FTXF-F Technical Data Book:
+  https://my.daikin.eu/content/dam/b2c/south-africa/dasa-pdf/new/FTXF-F_Data%20books_EEDEN25A_English.pdf/_jcr_content/renditions/original./FTXF-F_Data%20books_EEDEN25A_English.pdf
+
+TOSHIBA
+- SHORAI EDGE WHITE Herstellerseite:
+  https://www.toshiba-aircondition.com/de/klimaanlagen-fuer-privatanwender/produkt/shorai-edge-white-143
+- Die dort verlinkten offiziellen Set-Datenblätter wurden für RAS-B10G3KVSG-E/RAS-10J2AVSG-E1 und RAS-B13G3KVSG-E/RAS-13J2AVSG-E1 verwendet.
+
+Die technischen Angaben im Shop wurden aus diesen Herstellerquellen übernommen.
+Bei Modellrevisionen, Chargenänderungen oder neuen Datenblättern sollte vor Liveverkauf erneut abgeglichen werden.

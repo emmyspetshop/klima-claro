@@ -1,0 +1,39 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bestellung | Klima Claro</title><link rel="stylesheet" href="assets/shop.css"></head><body>
+
+<div class="topbar"><div class="wrap"><span>✓ Ausschließlich Top-Marken</span><span>✓ Keine No-Name-Geräte</span><span>✓ Persönliche Beratung</span><span>✓ 59 € Versand</span></div></div>
+<header class="header"><div class="wrap header-row">
+<a class="logo" href="/">Klima <span>Claro</span></a>
+<form class="search" action="klimageraete-ohne-montage.html"><input name="q" placeholder="Klimagerät, Marke oder Leistung suchen"><button>Suchen</button></form>
+<div class="header-actions"><a href="/#kontakt">Kontakt</a><a href="/#konfigurator">Mit Montage</a></div>
+</div></header>
+<nav class="nav"><div class="wrap"><a href="/">Startseite</a><a href="/#klimageraete">Klimageräte</a><a href="/#konfigurator">Konfigurator</a><a href="/#leistungen">Leistungen</a><a class="shoplink" href="klimageraete-ohne-montage.html">Nur Gerät kaufen</a><a href="/#faq">FAQ</a></div></nav>
+<div class="wrap breadcrumb"><a href="/">Startseite</a> / <a href="klimageraete-ohne-montage.html">Klimageräte</a> / Bestellung</div>
+<main class="wrap checkout"><section class="panel"><div class="eyebrow">BESTELLUNG</div><h1>Ihre Bestellung</h1>
+<div class="payment-pending"><strong>Online-Zahlung wird eingerichtet</strong>Die Produktseiten können bereits online gehen. Sobald Stripe eingerichtet ist, werden hier PayPal, Apple Pay, Google Pay und Amazon Pay freigeschaltet.</div>
+<form class="form" id="orderForm"><input type="hidden" name="produkt" id="pid">
+<div class="twocol"><label>Kundentyp<select required><option value="">Bitte wählen</option><option>Privatkunde</option><option>Gewerbekunde</option><option>Fachbetrieb</option></select></label><label>Vor- und Nachname<input required></label></div>
+<div class="twocol"><label>E-Mail-Adresse<input type="email" required></label><label>Telefon<input></label></div>
+<label>Straße und Hausnummer<input required></label><div class="twocol"><label>PLZ<input required></label><label>Ort<input required></label></div>
+<label>Installierender Fachbetrieb / Firmenname<input required></label>
+<label>Installationsnachweis / Auftragsbestätigung<input type="file" accept=".pdf,.jpg,.jpeg,.png"></label>
+<label style="font-weight:500"><input type="checkbox" required style="width:auto;margin-right:8px">Ich habe AGB, Widerrufsbelehrung und Datenschutzhinweise zur Kenntnis genommen.</label>
+<button class="btn btn-primary disabled-pay" type="button" disabled>Online-Zahlung wird eingerichtet</button>
+<a class="btn btn-secondary" id="mailOrder" href="mailto:info@klima-claro.de">Bestellung per E-Mail anfragen</a>
+</form></section>
+<aside class="panel summary"><img id="summaryLogo" class="checkout-logo" src="" alt="" style="display:none"><h2>Bestellübersicht</h2><div><span>Gerät</span><strong id="sname">–</strong></div><div><span>Gerätepreis</span><strong id="sprice">–</strong></div><div><span>Versand</span><strong>59,00 €</strong></div><div class="total"><span>Gesamt</span><strong id="stotal">–</strong></div><p class="price-note">inkl. 19 % MwSt. · ohne Montage</p></aside></main>
+
+<footer class="footer"><div class="wrap footer-grid">
+<div><div class="logo">Klima <span>Claro</span></div><p>Beratung, Verkauf und Koordination rund um Split-Klimaanlagen.</p></div>
+<div><strong>Shop</strong><a href="klimageraete-ohne-montage.html">Klimageräte ohne Montage</a><br><a href="/#konfigurator">Klimaanlage mit Montage</a><br><a href="/#kontakt">Kontakt</a></div>
+<div><strong>Rechtliches</strong><a href="/impressum.html">Impressum</a><br><a href="/datenschutz.html">Datenschutz</a><br><a href="/agb.html">AGB</a><br><a href="widerruf.html">Widerruf</a></div>
+</div></footer>
+
+<script>
+const BRAND_LOGOS={"Mitsubishi Electric": "assets/img/mitsubishi-electric-official.png", "Daikin": "assets/img/daikin-official.png", "Toshiba": "assets/img/toshiba-official.png"};
+const P={"mitsubishi-25": {"name": "Mitsubishi Electric MSZ-HR25VF + MUZ-HR25VF", "price": 749}, "mitsubishi-35": {"name": "Mitsubishi Electric MSZ-HR35VF + MUZ-HR35VF", "price": 879}, "daikin-25": {"name": "Daikin Sensira FTXF25F + RXF25F", "price": 769}, "daikin-35": {"name": "Daikin Sensira FTXF35F + RXF35F", "price": 829}, "toshiba-25": {"name": "Toshiba Shorai Edge RAS-B10G3KVSG-E + RAS-10J2AVSG-E1", "price": 1199}, "toshiba-35": {"name": "Toshiba Shorai Edge RAS-B13G3KVSG-E + RAS-13J2AVSG-E1", "price": 1249}}; const id=new URLSearchParams(location.search).get('produkt'), p=P[id];
+if(p){document.getElementById('pid').value=id;
+const brandName = p.name.startsWith('Mitsubishi Electric') ? 'Mitsubishi Electric' : (p.name.startsWith('Daikin') ? 'Daikin' : (p.name.startsWith('Toshiba') ? 'Toshiba' : ''));
+const logo = document.getElementById('summaryLogo');
+if(brandName && BRAND_LOGOS[brandName]){logo.src=BRAND_LOGOS[brandName];logo.alt=brandName+' Logo';logo.style.display='block';}
+document.getElementById('sname').textContent=p.name;document.getElementById('sprice').textContent=p.price.toLocaleString('de-DE',{minimumFractionDigits:2})+' €';document.getElementById('stotal').textContent=(p.price+59).toLocaleString('de-DE',{minimumFractionDigits:2})+' €';document.getElementById('mailOrder').href='mailto:info@klima-claro.de?subject='+encodeURIComponent('Bestellanfrage: '+p.name)+'&body='+encodeURIComponent('Ich interessiere mich für '+p.name+' zum Gerätepreis von '+p.price+' € zzgl. 59 € Versand.');}else{document.querySelector('.checkout').innerHTML='<section class="panel"><h1>Bitte zuerst ein Klimagerät auswählen.</h1><a class="btn btn-primary" href="klimageraete-ohne-montage.html">Zu den Klimageräten</a></section>';}
+</script></body></html>
