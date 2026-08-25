@@ -1,0 +1,22 @@
+KLIMA CLARO – INTEGRIERTE VERSION
+
+index.html:
+- bestehende Klima-Claro Startseite
+- neuer Navigationspunkt "Shop ohne Montage"
+- neuer Hero-Button zum Shop
+- integrierter Shopbereich mit 6 Geräten
+- Links zu Produktdetails und Bestellung
+
+Zusätzliche Shopdateien:
+- klimageraete-ohne-montage.html
+- produktdetails-auswahl.html
+- bestellen.html
+- widerruf.html
+- assets/
+
+IONOS:
+1. Bestehende index.html vorher sichern.
+2. Inhalt dieses Pakets in den Webordner von klima-claro.de hochladen.
+3. index.html ersetzen.
+4. assets-Ordner vollständig hochladen.
+5. Danach https://www.klima-claro.de/ und /klimageraete-ohne-montage.html testen.

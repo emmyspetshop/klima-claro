@@ -1,0 +1,53 @@
+KLIMA CLARO – UPLOADFERTIGER SHOP
+
+HAUPTSEITE
+klimageraete-ohne-montage.html
+
+ENTHALTEN
+- Produktübersicht mit Suche, Filtern und Sortierung
+- 6 Produktdetailseiten
+- Originale Herstellerbilder aus den vorbereiteten Herstellerunterlagen
+- Preise inkl. 19 % MwSt.
+- 59 € Versand
+- Bestellseite
+- Links zu bestehendem Klima-Claro-Konfigurator, Kontakt, AGB, Widerruf, Datenschutz und Impressum
+- Zahlungsbereich vorbereitet, aber bewusst noch deaktiviert
+
+IONOS UPLOAD
+1. Den Inhalt dieses Ordners in den Webspace hochladen, in dem auch die bestehende Startseite liegt.
+2. Die Ordnerstruktur assets/img beibehalten.
+3. Im Browser aufrufen:
+   https://www.klima-claro.de/klimageraete-ohne-montage.html
+4. Alle 6 Details-Seiten und "Jetzt kaufen" testen.
+5. Erst danach Zahlungsanbieter aktivieren.
+
+WICHTIG VOR LIVE
+- Produktverfügbarkeit und Lieferzeit aktuell halten.
+- Hersteller-/Bildnutzungsrechte aus Händler-/Herstellervereinbarung prüfen.
+- Technische Daten bei Produktrevisionen gegen das jeweils aktuelle Herstellerdatenblatt prüfen.
+- Die Zahlungsfunktion ist noch nicht live. Der Kunde sieht deshalb transparent "Online-Zahlung wird eingerichtet".
+- Der Bestellbereich bietet bis dahin eine E-Mail-Anfrage als funktionierenden Fallback.
+
+SPÄTER ZAHLUNGEN
+payment-config.php ist vorbereitet. Die eigentliche Stripe-/Wallet-Aktivierung sollte erst erfolgen,
+wenn Stripe-Testkonto, Domainregistrierung und Testzahlungen abgeschlossen sind.
+
+POSITIONIERUNG
+- Ausschließlich Top-Marken: Mitsubishi Electric, Daikin und Toshiba
+- Keine No-Name-Geräte / unbekannten Importmarken
+- Diese Botschaft ist in Vertrauensleiste, Shopübersicht und Detailseiten integriert.
+
+PRODUKTDETAILS
+- Alle sechs Produktdetailseiten wurden mit umfangreichen Herstellerdaten ergänzt.
+- Herstellerquelle ist jeweils direkt auf der Produktseite verlinkt.
+- Toshiba: exakte Set-Datenblätter.
+- Daikin: offizielle Sensira FTXF-F Produktseite + Technical Data Book.
+- Mitsubishi Electric: offizielle MSZ-HR Produktunterlagen; Modellrevision vor Liveverkauf prüfen.
+
+
+WIDERRUFSBELEHRUNG
+- widerruf.html ist fertig integriert.
+- Rücksendekosten bei nicht paketversandfähigen Waren: höchstens etwa 200,00 €.
+- Telefonnummer: 01556 5961767.
+- Wertersatz bei Montage, Anschluss und Inbetriebnahme ist ausdrücklich geregelt.
+- Vor Livegang empfiehlt sich eine abschließende Prüfung durch eine im Verbraucherrecht qualifizierte Rechtsberatung.
