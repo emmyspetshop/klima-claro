@@ -1,22 +1,32 @@
-KLIMA CLARO – INTEGRIERTE VERSION
+KLIMA CLARO – INTEGRIERTE VERSION (inkl. gespiegelter Live-Seiten)
 
 index.html:
 - bestehende Klima-Claro Startseite
-- neuer Navigationspunkt "Shop ohne Montage"
-- neuer Hero-Button zum Shop
+- Navigationspunkt "Shop ohne Montage"
+- Hero-Button zum Shop
 - integrierter Shopbereich mit 6 Geräten
-- Links zu Produktdetails und Bestellung
 
 Zusätzliche Shopdateien:
 - klimageraete-ohne-montage.html
 - produktdetails-auswahl.html
 - bestellen.html
 - widerruf.html
-- assets/
+- 6 Produktdetailseiten
+- assets/shop.css + assets/img/
+
+Marken- & Regionsseiten (aus Live gespiegelt):
+- hisense-klimaanlage.html
+- mitsubishi-electric-klimaanlage.html
+- daikin-sensira-klimaanlage.html
+- mitsubishi-msz-hr25/35-muz-hr25/35.html
+- klimaanlage-muenchen.html (+ Ebersberg, Vaterstetten, Poing, Grafing, Markt Schwaben, Kirchseeon)
 
 IONOS:
 1. Bestehende index.html vorher sichern.
-2. Inhalt dieses Pakets in den Webordner von klima-claro.de hochladen.
-3. index.html ersetzen.
-4. assets-Ordner vollständig hochladen.
+2. Inhalt dieses Pakets / Repos in den Webordner von klima-claro.de hochladen.
+3. assets/ zusammenführen (bestehende Bilder behalten).
+4. index.html ersetzen.
 5. Danach https://www.klima-claro.de/ und /klimageraete-ohne-montage.html testen.
+
+Details: docs/IONOS-DEPLOY.md
+Fertiges ZIP: archive/klima-claro-ionos-deploy.zip

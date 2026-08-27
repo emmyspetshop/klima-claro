@@ -2,15 +2,21 @@
 
 Statische Website für Beratung, Montage-Konfigurator und Shop **Klimageräte ohne Montage**.
 
-## Neu in diesem Paket
+## Enthalten
 
-- Integrierte Startseite (`index.html`) mit Navigation und Abschnitt **Shop ohne Montage**
-- Shop-Übersicht: `klimageraete-ohne-montage.html`
-- 6 Produktdetailseiten (Mitsubishi Electric, Daikin, Toshiba)
-- Bestellseite mit E-Mail-Fallback (`bestellen.html`)
-- Widerrufsbelehrung (`widerruf.html`)
-- Shop-Assets unter `assets/shop.css` und `assets/img/`
+- Startseite (`index.html`) mit Konfigurator, Marken, Regionen und Abschnitt **Shop ohne Montage**
+- Shop: `klimageraete-ohne-montage.html` + 6 Produktdetailseiten + `bestellen.html`
+- Montage-Markenseiten: Hisense, Mitsubishi Electric, Daikin Sensira
+- Regionsseiten: München, Ebersberg, Vaterstetten, Poing, Grafing, Markt Schwaben, Kirchseeon
+- Inbetriebnahme, Widerruf, Impressum, Datenschutz, AGB
+- Assets unter `assets/` (Produktbilder, Shop-CSS, Set-Bilder)
 - Zahlung vorbereitet, aber **deaktiviert** (`payment-config.php`)
+
+## Live-Status
+
+Die Live-Domain läuft noch mit der älteren Startseite. Der Shop ist im Repo fertig, auf IONOS aber noch nicht hochgeladen (`/klimageraete-ohne-montage.html` → 404).
+
+Siehe `docs/IONOS-DEPLOY.md`.
 
 ## Lokal prüfen
 
@@ -22,18 +28,8 @@ Dann öffnen:
 
 - http://localhost:8080/
 - http://localhost:8080/klimageraete-ohne-montage.html
-
-## Upload zu IONOS (Live)
-
-1. Bestehende `index.html` auf dem Webspace sichern.
-2. Inhalt dieses Repositories in den Webordner von `klima-claro.de` hochladen.
-3. **Wichtig:** Ordner `assets/` zusammenführen (nicht löschen). Bestehende Dateien wie `hisense-set.webp` behalten und nur `assets/shop.css` sowie `assets/img/` ergänzen.
-4. `index.html` ersetzen.
-5. Testen:
-   - https://www.klima-claro.de/
-   - https://www.klima-claro.de/klimageraete-ohne-montage.html
-   - alle 6 Detailseiten und „Jetzt kaufen“
-6. Online-Zahlung erst aktivieren, wenn Stripe eingerichtet ist.
+- http://localhost:8080/hisense-klimaanlage.html
+- http://localhost:8080/klimaanlage-muenchen.html
 
 ## Hinweise vor Livegang
 
@@ -41,8 +37,3 @@ Dann öffnen:
 - Hersteller-/Bildnutzungsrechte prüfen (siehe `docs/`)
 - Technische Daten bei Modellrevisionen gegen Herstellerdatenblätter abgleichen
 - Zahlungsfunktion bleibt aus, bis Stripe-Testzahlungen laufen; bis dahin funktioniert die E-Mail-Anfrage
-
-## Dokumentation
-
-Siehe Ordner `docs/` für Upload-Hinweise, Herstellerquellen und Logo-Quellen.
-Das Original-ZIP liegt unter `archive/`.
